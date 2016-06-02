@@ -1,0 +1,23 @@
+
+\documentclass[11pt,twoside,openright,largecrownvopaper]
+{memoir}
+\usepackage{geometry}
+\setulmarginsandblock{2.38cm}{2.38cm}{*}
+\setlrmarginsandblock{2.29cm}{1.52cm}{*}
+\checkandfixthelayout
+\usepackage{minted}
+\usemintedstyle{bw}
+\expandafter\def\csname PY@tok@err\endcsname{}
+\usepackage{url}
+\addtocounter{chapter}{1}
+\begin{document}
+\section{Ergebnis}
+\noindent
+\input|"./streik.js"
+\newpage
+
+\section{Quelle}
+\inputminted{javascript}{streik.js}
+\newpage
+\inputminted{latex}{streik.tex}
+\end{document}

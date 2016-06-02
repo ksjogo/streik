@@ -1,0 +1,7 @@
+*.aux
+*.fdb_latexmk
+/streik.fls
+/streik.log
+/streik.pyg
+/streik.synctex.gz
+/auto/streik.el
